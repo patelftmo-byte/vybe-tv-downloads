@@ -18,3 +18,9 @@ Every release lists the SHA-256 checksum of its APK. The APK is signed with the 
 production certificate (SHA-256 `018df6c6a347674b0daae5d69e5f18d8b12c144e46f7df6f0637f4cd0459501b`).
 
 This repository only contains release files. It has no source code.
+
+## service.json
+
+The address of the VYBE setup service that VYBE TV reads at start-up (for QR / phone setup).
+Empty means QR setup is off and playlists are entered with the remote. Only `https://` addresses on
+VYBE's hosts are accepted by the app.
